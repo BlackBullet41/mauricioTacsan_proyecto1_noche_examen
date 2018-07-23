@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PokePage</title>
+</head>
+<body>
+    
+   <main>
+    <form>
+        <label for="txtNumEntrenador">Numero del Entrenador</label>
+        <input type="text" id="txtNumEntrenador">
+
+        <label for="txtNombreEntrenador">Nombre del Entrenador</label>
+        <input type="text"  id="txtNombreEntrenador">
+        
+        <label for="txtEdad">Edad</label>
+        <input type="text" id="txtEdad">
+
+        <label for="txtSexo" id="txtSexo">Sexo</label>
+        <select id="slcSexo">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+        </select>
+
+
+
+       
+
+        <button type="button" id="btnRegistrar">Registrar</button>
+    
+    </form>
+    <table id="tblEntrenadores">
+        <thead>
+            <th>Numero Entrenador</th>
+            <th>Nombre Entrenador</th>
+            <th>Edad</th>
+            <th>Sexo</th>
+
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    </main>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/Entrenador.servicio.js"></script>
+   <script src="js/Entrenador.controlador.js"></script>
+    
+    
+</body>
+</html>

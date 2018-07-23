@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PokePage</title>
+</head>
+<body>
+    
+   <main>
+    <form>
+        <label for="txtNumPokedex">Numero del pokemon</label>
+        <input type="text" id="txtNumPokedex">
+
+        <label for="txtNombrePoke">Nombre del pokemon</label>
+        <input type="text"  id="txtNombrePoke">
+        
+        <label for="txtTipoPokemon1">Tipo 1</label>
+        <input type="text" id="txtTipoPokemon1">
+
+        <label for="txtTipoPokemon2">Tipo 2</label>
+        <input type="text" id="txtTipoPokemon2">
+
+       
+
+        <button type="button" id="btnRegistrar">Registrar</button>
+    
+    </form>
+    <table id="tblPokemons">
+        <thead>
+            <th>Numero pokemon</th>
+            <th>Nombre pokemon</th>
+            <th>tipo 1</th>
+            <th>tipo 2</th>
+
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    </main>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/pokemon.servicio.js"></script>
+   <script src="js/pokemon.controlador.js"></script>
+    
+    
+</body>
+</html>
